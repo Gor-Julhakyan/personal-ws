@@ -1,0 +1,13 @@
+<section class="home">
+	<div class="logo">
+		{{ home.logoImg }}
+		<img src="" alt="">
+	</div>
+	<nav class="m-menu">
+		<ul>
+			<li class="item" ng-repeat="item in home.menu">
+				<a href=" {{ item.link }} ">{{ item.title }}</a>
+			</li>
+		</ul>
+	</nav>
+</section>
