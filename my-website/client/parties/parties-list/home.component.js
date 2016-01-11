@@ -5,7 +5,7 @@ angular.module('myPersonal').directive('home', function () {
     controllerAs: 'home',
     controller: function ($scope, $reactive) {
       $reactive(this).attach($scope);
- 
+ //***
       this.newMain = {};
 
       this.newMenu = {};
